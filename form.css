@@ -1,0 +1,61 @@
+.form{
+    width: 500px;
+    background: khaki;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    transform: translate(-50%,-50%);
+
+}
+body{
+    background: #0000ff80;
+}
+input{
+    width: 85%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.button{
+    margin-top: 20px;
+    padding: 15px 10px;
+    background: red;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+
+.btn{
+    text-align: right;
+}
+.reg{
+    width: 250px;
+    height: 50px;
+    background: khaki;
+    position: absolute;
+    right: 15px;
+}
+.form.active{
+    display: block;
+}
+.close{
+    background: red;
+    width: 30px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+.close:hover{
+    cursor: pointer;
+}
